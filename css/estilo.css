@@ -1,0 +1,529 @@
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+#map {
+  width: 100%;
+  height: 200px;
+}
+@media (min-width: 767px) { 
+  #map {
+    height: 400px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+p.small {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+a {
+    color: #595844;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #5F0A14;
+    text-decoration: none;
+}
+
+a, a:hover, a:visited, a:focus {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+section {
+    padding: 80px 0;
+}
+
+
+
+/*Menu Nav*/
+
+.navbar-default .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 2.6em;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #eba465;
+    background-color: transparent;
+}
+
+.navbar-default {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(242, 100, 69, 0.7);
+    border-color: transparent;
+    padding: 10px 10px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+    border-bottom: solid 3px transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#e56005;  
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #613313;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+    
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color:#e56005;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e56005;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: solid 3px #e56005;
+}
+
+/*slide*/
+
+
+@media (min-width: 768px) {
+  .navbar-default {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(242, 100, 69, 0.6);
+    border-color: transparent;
+    padding: 10px 10px;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-default.top-nav-collapse {
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f25730+0,ef6d4c+50,f2870e+100,7db9e8+100,f2870e+102 */
+    background: #f25730; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f25730 0%, #ef6d4c 50%, #f2870e 100%, #7db9e8 100%, #f2870e 102%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f25730 0%,#ef6d4c 50%,#f2870e 100%,#7db9e8 100%,#f2870e 102%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f25730 0%,#ef6d4c 50%,#f2870e 100%,#7db9e8 100%,#f2870e 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25730', endColorstr='#f2870e',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+
+}
+
+/*Seccion nuestras bebidas*/
+
+
+section.productos {
+    color: #e56005;
+    background: #fff;
+}
+
+section.productos h2 {
+    color: #e56005;
+    font-size: 3.2em;
+}
+
+section.productos h3 {
+    color: #e56005;
+}
+
+section.productos p {
+    color: #e56005;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+section.productos a,
+section.productos a:hover,
+section.productos a:focus,
+section.productos a:active,
+section.productos a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+/*thumbnail productos bebidas*/
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+ 
+}
+
+.thumbnail h3:hover{
+    color: orange;
+}
+
+
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*página interna producto*/
+
+.text-nombre{
+    font-size: 2.6em;
+}
+.text-descripcion{
+    font-size: 1.5em;
+}
+
+.text-precio{
+    font-size: 2.6em;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 450px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-primary:after {
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+}
+
+
+/*seccion donde comprar*/
+
+
+section.donde {
+    color: #e56005;
+    background: #fff;
+}
+
+section.donde h2 {
+    color: #e56005;
+    font-size: 3.2em;
+}
+
+section.donde h3 {
+    color: #e56005;
+}
+
+section.donde p {
+    color: #e56005;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+section.donde a,
+section.donde a:hover,
+section.donde a:focus,
+section.donde a:active,
+section.donde a.active {
+    outline: 0;
+    color:#e56005 ;
+}
+
+/*thumbnail donde comprar*/
+
+.thumbnaild {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+ 
+}
+
+.thumbnaild > img, .thumbnaild a > img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img-responsive, .thumbnaild>img, .thumbnaild a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-default {
+    color: #e56005;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: #e56005;
+    font-size: 1em;
+    width: 50%;
+}
+
+.btn-default:hover {
+    color: #fff !important;
+    background-color: #e56005;
+    border-color: solid 2px #e56005 !important;
+}
+
+.btn-default:focus, .btn-default.focus {
+    color: #fff !important;
+    background-color: #e56005;
+    border-color: solid 2px #e56005;
+}
+
+/*Section Contacto*/
+
+section.contact {
+    color: #e56005;
+    background: #fff;
+}
+
+section.contact h2 {
+    color: #e56005;
+    font-size: 3.2em;
+}
+
+section.contact h3 {
+    color: #e56005;
+}
+
+section.contact p {
+    color: #e56005;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+/*modals*/
+.modal-content {
+    position: relative;
+    background-color: #e56005;
+}
+
+.modal-content hr.star-primary{
+    color: #fff;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #fff;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 3px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 3px;
+    height: 75px;
+    background-color: #fff;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f25730+0,ef6d4c+50,f2870e+100,7db9e8+100,f2870e+102 */
+background: #f25730; /* Old browsers */
+background: -moz-linear-gradient(top,  #f25730 0%, #ef6d4c 50%, #f2870e 100%, #7db9e8 100%, #f2870e 102%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f25730 0%,#ef6d4c 50%,#f2870e 100%,#7db9e8 100%,#f2870e 102%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f25730 0%,#ef6d4c 50%,#f2870e 100%,#7db9e8 100%,#f2870e 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25730', endColorstr='#f2870e',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #F18512;
+}
+.btn-default2 {
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: #fff;
+    font-size: 1em;
+    width: 50%;
+}
+
+.btn-default2:hover {
+    color: #e56005 !important;
+    background-color: #fff;
+    border-color: solid 2px #e56005 !important;
+}
+
+.btn-default2:focus, .btn-default.focus {
+    color: #e56005 !important;
+    background-color: #fff;
+    border-color: solid 2px #e56005 !important;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #e56005;
+    background: #fff;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1199px) and (min-width: 993px){}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){}
+
+@media screen and (max-width: 767px){
+
+    section {
+        padding: 75px 0;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    section.success {
+    margin-top: none;
+    }
+
+}
